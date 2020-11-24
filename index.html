@@ -4,7 +4,7 @@
 <!-- Head -->
 <head>
   <meta charset="UTF-8">
-  <title>Zoo Animal Classification</title>
+  <title>Animal Classification</title>
 
   <!--Bootstrap-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -40,47 +40,86 @@
 
 <!-- Body -->
 <body>
-  <div class="wrapper">
-    <!-- Sidebar -->
-    <div id = "sidebar">
-      <div class="sidebar-header">
-        <h1>Just for Fun</h1>
-      </div>
+  <div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <aside class="col-2" id="sidebar">  
 
-      <div class="card mx-auto" style="width: 24rem;">
-        <img src = "../../resources/turtle.png" class="mx-auto turtle">
-        <div class="card-body">
-          <h3 class="card-title">Can you find the turtle?</h3>
-          <h6 class="card-text">Our model has trouble identifying turtles.  Can you beat the machine?  Look for turtles around the website.</h4>
-        </div>
-      </div>
-      <div class = "card mx-auto characters" style="width: 24rem;">
-        <div class="card-body">
-          <h3 class="card-title">Our cast of characters</h3>
-          <h6 class = "card-text">We brought along a few animal friends to test our model. <br><br></h6>
-          <img src = "../../resources/kangaroo.jpg" class="mx-auto">
-          <p class="animal"> Kangaroo <br><br></p>
-          <img src = "../../resources/eagle.jpg" class="mx-auto">
-          <p class="animal"> Bald Eagle <br><br></p>
-          <img src = "../../resources/snake.jpg" class="mx-auto">
-          <p class="animal"> Rattlesnake <br><br></p>
-          <img src = "../../resources/goldfish.jpg" class="mx-auto">
-          <p class="animal"> Goldfish <br><br></p>
-          <img src = "../../resources/frog.jpg" class="mx-auto">
-          <p class="animal"> Mountain Chicken Frog <br><br></p>
-          <img src = "../../resources/moth.jpg" class="mx-auto">
-          <p class="animal"> Vampire Moth <br><br></p>
-          <img src = "../../resources/coral.jpg" class="mx-auto">
-          <p class="animal"> Coral <br><br></p>
-          <img src = "../../resources/seaturtle.jpg" class="mx-auto">
-          <p class="animal"> Sea Turtle <br><br></p>
-        </div>
-      </div>
-    </div>
+          <div class="sidebar-header">
+            <h1>Just for Fun</h1>
+          </div>
+    
+          <div class="card mx-auto" style="width: 24rem;">
+            <img src = "../../resources/turtle.png" class="mx-auto turtle">
+            <div class="card-body">
+              <h3 class="card-title">Can you find the turtle?</h3>
+              <h6 class="card-text">Our model has trouble identifying turtles.  Can you beat the machine?  Look for turtles around the website.</h4>
+            </div>
+          </div>
+          <div class = "card mx-auto characters" style="width: 24rem;">
+            <div class="card-body">
+              <h3 class="card-title">Our cast of characters</h3>
+              <h6 class = "card-text">We brought along a few animal friends to test our model. <br><br></h6>
+              <img src = "../../resources/kangaroo.jpg" class="mx-auto">
+              <p class="animal"> Kangaroo <br><br></p>
+              <img src = "../../resources/eagle.jpg" class="mx-auto">
+              <p class="animal"> Bald Eagle <br><br></p>
+              <img src = "../../resources/snake.jpg" class="mx-auto">
+              <p class="animal"> Rattlesnake <br><br></p>
+              <img src = "../../resources/goldfish.jpg" class="mx-auto">
+              <p class="animal"> Goldfish <br><br></p>
+              <img src = "../../resources/frog.jpg" class="mx-auto">
+              <p class="animal"> Mountain Chicken Frog <br><br></p>
+              <img src = "../../resources/moth.jpg" class="mx-auto">
+              <p class="animal"> Vampire Moth <br><br></p>
+              <img src = "../../resources/coral.jpg" class="mx-auto">
+              <p class="animal"> Coral <br><br></p>
+              <img src = "../../resources/seaturtle.jpg" class="mx-auto">
+              <p class="animal"> Sea Turtle <br><br></p>
+            </div>
+          </div>
+        </aside>
+    
+        <!-- Page Content -->
+         <main class = "col title">
+          <h2> Predicting Animal Class Using Various Characteristics</h2>
+         </main> 
 
-    <!-- Page Content -->
-    <div id = "content">
-      Content
+         <div class="row bg-white">
+              <div class="col-12 py-4">
+                  Hello
+
+                  <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut
+                      semiotics, raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave
+                      meditation. Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+
+                  <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
+                      readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch
+                      selfies, forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
+              </div>
+          </div>
+      </main>
+        
+        
+        
+        
+        
+        
+        <div class = "row">
+          <div class = "col descrip">
+            <p>Lorem ipsum dolor sit amet, </p>
+        
+        </div>
+
+          </div>  
+
+
+      
+        
+      
+         
+        </div>
+        
 
     </div>
   </div>
