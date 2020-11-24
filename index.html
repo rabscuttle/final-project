@@ -42,87 +42,214 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-        <!-- Sidebar -->
-        <aside class="col-2" id="sidebar">  
-
-          <div class="sidebar-header">
-            <h1>Just for Fun</h1>
-          </div>
-    
-          <div class="card mx-auto" style="width: 24rem;">
-            <img src = "../../resources/turtle.png" class="mx-auto turtle">
-            <div class="card-body">
-              <h3 class="card-title">Can you find the turtle?</h3>
-              <h6 class="card-text">Our model has trouble identifying turtles.  Can you beat the machine?  Look for turtles around the website.</h4>
-            </div>
-          </div>
-          <div class = "card mx-auto characters" style="width: 24rem;">
-            <div class="card-body">
-              <h3 class="card-title">Our cast of characters</h3>
-              <h6 class = "card-text">We brought along a few animal friends to test our model. <br><br></h6>
-              <img src = "../../resources/kangaroo.jpg" class="mx-auto">
-              <p class="animal"> Kangaroo <br><br></p>
-              <img src = "../../resources/eagle.jpg" class="mx-auto">
-              <p class="animal"> Bald Eagle <br><br></p>
-              <img src = "../../resources/snake.jpg" class="mx-auto">
-              <p class="animal"> Rattlesnake <br><br></p>
-              <img src = "../../resources/goldfish.jpg" class="mx-auto">
-              <p class="animal"> Goldfish <br><br></p>
-              <img src = "../../resources/frog.jpg" class="mx-auto">
-              <p class="animal"> Mountain Chicken Frog <br><br></p>
-              <img src = "../../resources/moth.jpg" class="mx-auto">
-              <p class="animal"> Vampire Moth <br><br></p>
-              <img src = "../../resources/coral.jpg" class="mx-auto">
-              <p class="animal"> Coral <br><br></p>
-              <img src = "../../resources/seaturtle.jpg" class="mx-auto">
-              <p class="animal"> Sea Turtle <br><br></p>
-            </div>
-          </div>
-        </aside>
-    
-        <!-- Page Content -->
-         <main class = "col title">
-          <h2> Predicting Animal Class Using Various Characteristics</h2>
-         </main> 
-
-         <div class="row bg-white">
-              <div class="col-12 py-4">
-                  Hello
-
-                  <p>Sriracha biodiesel taxidermy organic post-ironic, Intelligentsia salvia mustache 90's code editing brunch. Butcher polaroid VHS art party, hashtag Brooklyn deep v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut
-                      semiotics, raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave
-                      meditation. Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
-
-                  <p>Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb
-                      readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch
-                      selfies, forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.</p>
-              </div>
-          </div>
-      </main>
-        
-        
-        
-        
-        
-        
-        <div class = "row">
-          <div class = "col descrip">
-            <p>Lorem ipsum dolor sit amet, </p>
-        
+      <!-- Sidebar -->
+      <aside class="col-sm-3" id="sidebar">
+        <div class="sidebar-header">
+          <h1>Just for Fun</h1>
         </div>
 
+        <div class="card mx-auto" >
+          <img src = "../../resources/turtle.png" class="mx-auto turtle">
+          <div class="card-body">
+             <h3 class="card-title">Can you find the turtle?</h3>
+             <h6 class="card-text">Our model has trouble identifying turtles.  Can you beat the machine?  Look for turtles around the website.</h4>
+          </div>
+        </div>
+        
+        <div class = "card mx-auto characters" >
+          <div class="card-body">
+             <h3 class="card-title">Our cast of characters</h3>
+             <h6 class = "card-text">We brought along a few animal friends to test our model. <br><br></h6>
+             <img src = "../../resources/kangaroo.jpg" class="mx-auto charimg">
+             <p class="animal"> Kangaroo <br><br></p>
+             <img src = "../../resources/eagle.jpg" class="mx-auto charimg">
+             <p class="animal"> Bald Eagle <br><br></p>
+             <img src = "../../resources/snake.jpg" class="mx-auto charimg">
+             <p class="animal"> Rattlesnake <br><br></p>
+             <img src = "../../resources/goldfish.jpg" class="mx-auto charimg">
+             <p class="animal"> Goldfish <br><br></p>
+             <img src = "../../resources/frog.jpg" class="mx-auto charimg">
+             <p class="animal"> Mountain Chicken Frog <br><br></p>
+             <img src = "../../resources/moth.jpg" class="mx-auto charimg">
+             <p class="animal"> Vampire Moth <br><br></p>
+             <img src = "../../resources/coral.jpg" class="mx-auto charimg">
+             <p class="animal"> Coral <br><br></p>
+             <img src = "../../resources/seaturtle.jpg" class="mx-auto charimg">
+             <p class="animal"> Sea Turtle <br><br></p>
+          </div>
+        </div>  
+
+      </aside>
+
+      <!-- Page Content -->
+      <div class="col-sm-9" id="content">
+        <div class="row">
+          <div class = "col-12 title">
+            <h2> Predicting Animal Class Using Various Characteristics</h2>
+          </div>          
+        </div>
+
+        <div class="row">
+          <!-- Project Intro -->
+          <div class="col-6 intro">
+             <h3>Introduction to Project</h3>
+
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
           </div>  
+          <!-- Data Info Table -->
+          <div class="col-4 offset-1 DataInfo">
+            <h3> Our Data</h3>
 
+            <table class="table table-sm table-bordered" id=DataTable>
+              <thead>
+                <tr>
+                  <th>Class</th>
+                  <th>Count</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Mammal</td>
+                  <td>59</td>
+                </tr>
+                <tr>
+                  <td>Bird</td>
+                  <td>40</td>
+                </tr>
+                <tr>
+                  <td>Fish</td>
+                  <td>28</td>
+                </tr>
+                <tr>
+                  <td>Bug</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>Reptile</td>
+                  <td>24</td>
+                </tr>
+                <tr>
+                  <td>Invertebrate</td>
+                  <td>20</td>
+                </tr>
+                <tr>
+                  <td>Amphibian</td>
+                  <td>16</td>
+                </tr>
+                <tr class=trfinal>
+                  <td>Total</td>
+                  <td>212</td>
+                </tr>
+              </tbody>
+            </table>
 
-      
-        
-      
-         
+          </div>   
         </div>
         
+        <div class="row">
+          <!-- Summary of Results -->
+          <div class="col-6 results">
+            <h3>Summary of Results</h3>
 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div> 
+          
+          <!-- Character Results Table -->
+          <div class="col-4 offset-1 CharResults">
+            <h3> Character Results</h3>
+          
+            <table class="table table-sm table-bordered" id=CharTable>
+                        <thead>
+                          <tr>
+                            <th>Character</th>
+                            <th>Log Reg</th>
+                            <th>Ran For</th>
+                            <th>K Near Neigh</th>
+                            <th>SVM</th>
+                            <th>Neural</th>
+                            <th>Deep Neural</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><img src = "../../resources/kangaroo.jpg"></td>
+                            <td>Mammal</td>
+                            <td>Mammal</td>
+                            <td>Mammal</td>
+                            <td>Mammal</td>
+                            <td>Mammal</td>
+                          </tr>
+                          <tr>
+                            <td><img src = "../../resources/eagle.jpg"></td>
+                            <td>Bird</td>
+                            <td>Bird</td>
+                            <td>Bird</td>
+                            <td>Bird</td>
+                            <td>Bird</td>
+                          </tr>
+                          <tr>
+                            <td><img src = "../../resources/snake.jpg"></td>
+                            <td>Reptile</td>
+                            <td>Reptile</td>
+                            <td>Reptile</td>
+                            <td>Reptile</td>
+                            <td>Reptile</td>
+                          </tr>
+                          <tr>
+                            <td><img src = "../../resources/goldfish.jpg"></td>
+                            <td>Fish</td>
+                            <td>Fish</td>
+                            <td>Fish</td>
+                            <td>Fish</td>
+                            <td>Fish</td>
+                          </tr>
+                          <tr>
+                            <td><img src = "../../resources/frog.jpg"></td>
+                            <td>Amphibian</td>
+                            <td>Amphibian</td>
+                            <td>Amphibian</td>
+                            <td>Amphibian</td>
+                            <td>Amphibian</td>
+                          </tr>
+                          <tr>
+                            <td><img src = "../../resources/moth.jpg"></td>
+                            <td>Bug</td>
+                            <td>Bug</td>
+                            <td>Bug</td>
+                            <td>Bug</td>
+                            <td>Bug</td>
+                          </tr>
+                          <tr>
+                            <td><img src = "../../resources/coral.jpg"></td>
+                            <td>Invertebrate</td>
+                            <td>Invertebrate</td>
+                            <td>Invertebrate</td>
+                            <td>Invertebrate</td>
+                            <td>Amphibian</td>
+                          </tr>
+                          <tr>
+                            <td><img src = "../../resources/seaturtle.jpg"></td>
+                            <td>Fish</td>
+                            <td>Fish</td>
+                            <td>Reptile</td>
+                            <td>Reptile</td>
+                            <td>Reptile</td>
+                          </tr>
+                        </tbody>
+                      </table>
+          
+                    </div>   
+
+        </div>
+
+      </div>
     </div>
   </div>
+
 
   <!-- Footer
     <div id="footer">

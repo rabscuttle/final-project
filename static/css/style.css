@@ -25,8 +25,7 @@ body {background-color: #fceac1;}
 }
 
 #sidebar {
-  min-width: 450px;
-  max-width: 450px;
+    max-width: 450px; 
   min-height: 100vh;
   background: #253923;
 }
@@ -35,54 +34,107 @@ body {background-color: #fceac1;}
   padding: 20px;
   text-align: center;
   color: #fceac1
-  }
+}
 
-  @media only screen and (max-width: 1000px) { 
-    #sidebar { 
+@media only screen and (max-width: 900px) { 
+  #sidebar { 
       display: none; 
-    } 
+  } 
+}
+
+.card {
+  background-color: #fceac1;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  margin-left: 0px;
+  margin-right: 0px;
+}  
+
+.turtle {
+  width: 100px !important;
+  display: inline;
+}
+
+.characters {
+  padding-top: 0px;
+}
+
+.charimg {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #253923;
+}
+
+h6 {
+  font-weight:normal;
+}
+
+.card img {
+  width: 150px;
+}
+
+.animal {
+  font-weight:bold;
+}
+
+.title {
+  margin-bottom: 50px;
+  }
+  
+.intro {
+  margin-left: 40px;
+}
+
+h2 {
+  margin-top: 20px;
+  color: #3d0c02;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  color: #3d0c02;
+  font-weight: bold;
+}
+
+p {
+  color: #3d0c02;
   }
 
-  .card {
-    background-color: #fceac1;
-    text-align: center;
-    padding-top: 20px;
-    margin-bottom: 40px;
-  }  
-
-  .turtle {
-    width: 100px !important;
-    display: inline;
+table.table-bordered{
+    border:1px; 
+    border-color: #3d0c02;
+    border-style: solid;
+    margin-top:20px;
   }
+table.table-bordered > thead > tr > th{
+    border:1px; 
+    border-color: #3d0c02;
+    border-style: solid;
+    background-color: #253923;
+    color: #fceac1;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px; 
+    border-color: #3d0c02;
+    border-style: solid;
+    color: #3d0c02
+}
 
-  .characters {
-    padding-top: 0px;
-  }
+.trfinal {
+  font-weight: bold;
+}
 
-  h6 {
-    font-weight:normal;
-  }
+.results {
+  margin-left: 40px;
+  margin-top: 80px;
+}
 
-  .card img {
-    width: 150px;
-  }
+.CharResults {
+  margin-top: 80px;
+}
 
-  p {
-    font-weight:bold;
-  }
-
-  .title {
-    /* margin: 0; */
-    position: absolute;
-    top: 10%;
-    left: 60%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-  }
-
-  h2 {
-    margin-top: 20px;
-    color: #3d0c02;
-    font-weight: bold;
-    text-align: center;
-  }
+.table img {
+  width: 100px;
+}
